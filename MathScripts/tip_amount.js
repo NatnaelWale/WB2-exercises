@@ -10,4 +10,4 @@ tip = (10 * foodBill) / 100
 
 
 
-console.log('Your tip on a ' + foodBill + '$' + ' food bill is ' + tip);
+console.log('Your tip on a ' + foodBill + '$' + 'food bill is ' + tip);
