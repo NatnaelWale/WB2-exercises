@@ -2,9 +2,7 @@
 
 // Define our known variable
 
-var celsius;
-
-celsius = 26;
+var celsius = 26;
 
 // Define our unknown variable
 
@@ -16,10 +14,10 @@ fahrenheit = (celsius * 1.8) + 32;
 
 // Define the result to be displayed
 
-var message
+var result;
 
-message = ('The given celsius value of ' + celsius + ' degree celsius can be converted to be ' + fahrenheit.toFixed(2) + ' degree fahrenheit.')
+result = ('The given celsius value of ' + celsius + ' degree celsius can be converted to be ' + fahrenheit.toFixed(2) + ' degree fahrenheit.')
 
 // Display the result
 
-console.log(message);
+console.log(result);

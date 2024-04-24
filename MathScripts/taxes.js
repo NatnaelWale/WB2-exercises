@@ -2,9 +2,7 @@
 
 // Define our known variable
 
-var salary;
-
-salary = 10000;
+var salary = 10000;
 
 // Define our unknown variable
 
@@ -14,12 +12,12 @@ var taxWithHeld;
 
 taxWithHeld = (23 * salary) / 100;
 
-// Define the message to be displayed
+// Define the result to be displayed
 
-var message;
+var result;
 
-message = ('The tax to be withheld from you every month with your monthly salary of ' + salary + '$' + ' is ' + taxWithHeld.toFixed(2) + '$.');
+result = ('The tax to be withheld from you every month with your monthly salary of ' + salary + '$' + ' is ' + taxWithHeld.toFixed(2) + '$.');
 
-// Display the message
+// Display the result
 
-console.log(message);
+console.log(result);
