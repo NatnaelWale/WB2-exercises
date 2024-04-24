@@ -31,6 +31,8 @@ console.log(Ic + " is the Integer of " + c);
 Id = parseInt(d);
 console.log(Id + " is the Integer of " + d);
 
+//----------------------------------------------------------------
+
 Fa = parseFloat(a);
 console.log(Fa + " is the Float of " + a);
 
@@ -43,6 +45,8 @@ console.log(Fc + " is the Float of " + c);
 Fd = parseFloat(d);
 console.log(Fd + " is the Float of " + d);
 
+//----------------------------------------------------------------
+
 Na = Number(a);
 console.log(Na + " is the Number of " + a);
 
@@ -54,6 +58,8 @@ console.log(Nc + " is the Number of " + c);
 
 Nd = Number(d);
 console.log(Nd + " is the Number of " + d);
+
+//----------------------------------------------------------------
 
 Ua = +a;
 console.log(Ua + " is the Unary of " + a);
