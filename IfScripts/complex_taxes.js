@@ -29,8 +29,8 @@ if (hoursWorked > 40)
 console.log(annualGrossIncome);
 
 
+// Let's now define the if statements for different filling status and conditions
 
-// Let's now define the if statements for different filling status and conditions:
 
 if ( filingStatus == "single" && annualGrossIncome < 12000) {
     taxRate = 0.05;
@@ -59,11 +59,14 @@ else if (filingStatus == "joint" && annualGrossIncome > 75000){
 
 //  Let's now define our known formulas
 
+
 taxWithHoldings = taxRate*annualGrossIncome;
 
 annualNetIncome = annualGrossIncome - taxWithHoldings;
 
+
 // Let's now define our result message:
+
 
 message = "You worked " + hoursWorked + "hours this period. Because you earn $" + payRate + " per hour, your gross pay is $" + annualGrossIncome + ". Your filing status is " + filingStatus + ". Your tax withholdings this period is $" + taxWithHoldings + ". Your net pay is $" + annualNetIncome + "."
 
