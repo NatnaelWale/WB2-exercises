@@ -36,3 +36,4 @@ console.log(
   "\n" + "Major: " + studentMajor,
   "\n" + "Advising Location: " + departmentOffice
 );
+
